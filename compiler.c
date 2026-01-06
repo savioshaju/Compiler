@@ -2,9 +2,9 @@
 #include <string.h>
 #include <ctype.h>
 
+
 char keywords[][10] = {"int", "float", "if", "else", "while", "for", "return"};
 char line[100], word[50];
-
 int keycount = 7;
 
 void main()
