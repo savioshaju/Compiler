@@ -1,50 +1,49 @@
-<identifier, include>
-<identifier, stdio>
-<punctuator, .>
-<identifier, h>
-<identifier, void>
-<identifier, main>
-<punctuator, (>
-<punctuator, )>
-<punctuator, {>
-<keyword, int>
-<identifier, i>
-<punctuator, ;>
-<keyword, int>
-<identifier, even>
-<number, 0>
-<punctuator, ;>
-<keyword, int>
-<identifier, odd>
-<number, 0>
-<punctuator, ;>
-<keyword, for>
-<punctuator, (>
-<identifier, i>
-<number, 1>
-<punctuator, ;>
-<identifier, i>
-<number, 10>
-<punctuator, ;>
-<identifier, i>
-<operator, +>
-<operator, +>
-<punctuator, )>
-<punctuator, {>
-<keyword, if>
-<punctuator, (>
-<identifier, i>
-<number, 2>
-<number, 0>
-<punctuator, )>
-<identifier, even>
-<operator, +>
-<operator, +>
-<punctuator, ;>
-<keyword, else>
-<identifier, odd>
-<operator, +>
-<operator, +>
-<punctuator, ;>
-<punctuator, }>
-<punctuator, }>
+<keyword, void >
+<identifier, main >
+<punctuator, ( >
+<punctuator, ) >
+<punctuator, { >
+<keyword, int >
+<identifier, i >
+<punctuator, ; >
+<keyword, int >
+<identifier, even >
+<operator, = >
+<number, 0 >
+<punctuator, ; >
+<keyword, int >
+<identifier, odd >
+<operator, = >
+<number, 0 >
+<punctuator, ; >
+<keyword, for >
+<punctuator, ( >
+<identifier, i >
+<operator, = >
+<number, 1 >
+<punctuator, ; >
+<identifier, i >
+<operator, <= >
+<number, 10 >
+<punctuator, ; >
+<identifier, i >
+<operator, ++ >
+<punctuator, ) >
+<punctuator, { >
+<keyword, if >
+<punctuator, ( >
+<identifier, i >
+<operator, % >
+<number, 2 >
+<operator, == >
+<number, 0 >
+<punctuator, ) >
+<identifier, even >
+<operator, ++ >
+<punctuator, ; >
+<keyword, else >
+<identifier, odd >
+<operator, ++ >
+<punctuator, ; >
+<punctuator, } >
+<punctuator, } >
