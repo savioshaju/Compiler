@@ -3,9 +3,6 @@
 #include <ctype.h>
 #include <stdbool.h>
 
-char keywords[][11] = {"int", "float", "if", "else", "while", "for", "return","void"};
-char operators[][13] = {"=", "==", "<", "<=", ">", ">=", "+", "-", "*", "/", "^", "%", "++", "--"};
-int keycount = 8, opCount = 14;
 char line[100], word[50];
 
 bool isNumber(char word[])
@@ -20,6 +17,8 @@ bool isNumber(char word[])
 
 bool isKeyword(char word[])
 {
+    char keywords[][11] = {"int", "float", "if", "else", "while", "for", "return", "void"};
+    int keycount = 8;
     for (int k = 0; k < keycount; k++)
     {
         if (strcmp(keywords[k], word) == 0)
@@ -38,6 +37,8 @@ bool isPunchtuator(char a)
 
 bool isOperator(char word[])
 {
+    char operators[][13] = {"=", "==", "!=", "<", "<=", ">", ">=", "+", "-", "*", "/", "^", "%", "++", "--"};
+    int opCount = 14;
     for (int k = 0; k < opCount; k++)
     {
         if (strcmp(operators[k], word) == 0)

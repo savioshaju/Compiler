@@ -1,14 +1,7 @@
-#include <stdio.h>
+int x = 10;
 
-void main() {
-    int i;
-    int even = 0;
-    int odd = 0;
+if (x > 5) {
 
-    for (i = 1; i <= 10; i++) {
-        if (i % 2 == 0)
-            even++;
-        else
-            odd++;
-    }
+    x = x + 1;
+
 }
